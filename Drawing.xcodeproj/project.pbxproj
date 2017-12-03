@@ -14,6 +14,7 @@
 		02B6658D1FD3D26700CEDB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B6658B1FD3D26700CEDB9B /* LaunchScreen.storyboard */; };
 		02B665981FD3D26700CEDB9B /* DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B665971FD3D26700CEDB9B /* DrawingTests.swift */; };
 		02B665A31FD3D26700CEDB9B /* DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B665A21FD3D26700CEDB9B /* DrawingUITests.swift */; };
+		02B665B11FD3D33200CEDB9B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B665B01FD3D33200CEDB9B /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		02B6659E1FD3D26700CEDB9B /* DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B665A21FD3D26700CEDB9B /* DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingUITests.swift; sourceTree = "<group>"; };
 		02B665A41FD3D26700CEDB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B665B01FD3D33200CEDB9B /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				02B665821FD3D26700CEDB9B /* AppDelegate.swift */,
 				02B665841FD3D26700CEDB9B /* ViewController.swift */,
+				02B665B01FD3D33200CEDB9B /* DrawingView.swift */,
 				02B665861FD3D26700CEDB9B /* Main.storyboard */,
 				02B665891FD3D26700CEDB9B /* Assets.xcassets */,
 				02B6658B1FD3D26700CEDB9B /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B665B11FD3D33200CEDB9B /* DrawingView.swift in Sources */,
 				02B665851FD3D26700CEDB9B /* ViewController.swift in Sources */,
 				02B665831FD3D26700CEDB9B /* AppDelegate.swift in Sources */,
 			);
@@ -363,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
